@@ -7270,6 +7270,9 @@ spec:
                         additionalProperties:
                           type: string
                         type: object
+                      enableFederation:
+                        default: false
+                        type: boolean
                       enableSecureRBAC:
                         default: true
                         type: boolean
@@ -7283,6 +7286,40 @@ spec:
                       nodeSelector:
                         additionalProperties:
                           type: string
+                        type: object
+                      oidcFederation:
+                        properties:
+                          KeystoneFederationIdentityProviderName:
+                            type: string
+                          oidcCacheType:
+                            default: memcache
+                            type: string
+                          oidcClaimDelimiter:
+                            default: ;
+                            type: string
+                          oidcClaimPrefix:
+                            default: OIDC-iss
+                            type: string
+                          oidcClientID:
+                            type: string
+                          oidcMemCacheServers:
+                            type: string
+                          oidcPassClaimsAs:
+                            default: both
+                            type: string
+                          oidcPassUserInfoAs:
+                            default: claims
+                            type: string
+                          oidcProviderMetadataURL:
+                            type: string
+                          oidcResponseType:
+                            default: id_token
+                            type: string
+                          oidcScope:
+                            default: openid email profile
+                            type: string
+                        required:
+                        - oidcMemCacheServers
                         type: object
                       override:
                         properties:
@@ -7341,6 +7378,12 @@ spec:
                         properties:
                           admin:
                             default: AdminPassword
+                            type: string
+                          keystoneOIDCClientSecret:
+                            default: KeystoneClientSecret
+                            type: string
+                          keystoneOIDCCryptoPassphrase:
+                            default: KeystoneCryptoPassphrase
                             type: string
                         type: object
                       preserveJobs:
