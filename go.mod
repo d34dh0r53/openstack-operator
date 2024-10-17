@@ -127,4 +127,4 @@ replace github.com/openshift/api => github.com/openshift/api v0.0.0-202408300231
 // custom RabbitmqClusterSpecCore for OpenStackControlplane (v2.6.0_patches_tag)
 replace github.com/rabbitmq/cluster-operator/v2 => github.com/openstack-k8s-operators/rabbitmq-cluster-operator/v2 v2.6.1-0.20240719064129-c0201810c8f5 //allow-merging
 
-replace github.com/openstack-k8s-operators/keystone-operator/api => github.com/d34dh0r53/keystone-operator/api v0.0.0-20241017141818-0180b426d257 //allow-merging
+replace github.com/openstack-k8s-operators/keystone-operator/api => github.com/d34dh0r53/keystone-operator/api v0.0.0-20241017150255-605c4a7db643 //allow-merging
