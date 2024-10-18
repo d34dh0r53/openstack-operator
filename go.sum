@@ -4,8 +4,8 @@ github.com/cert-manager/cert-manager v1.14.7 h1:C2L59sMGMdSpd8SPx5qfPAL7ejZaNxJB
 github.com/cert-manager/cert-manager v1.14.7/go.mod h1:0QE/Hzfs2SxNrFFYgFh/d0c0cDfNv9qSrAev2LFt5nM=
 github.com/cespare/xxhash/v2 v2.2.0 h1:DC2CZ1Ep5Y4k3ZQ899DldepgrayRUGE6BBZ/cd9Cj44=
 github.com/cespare/xxhash/v2 v2.2.0/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
-github.com/d34dh0r53/keystone-operator/api v0.0.0-20241017150255-605c4a7db643 h1:RpKmtlyjhBX2PUXZ2PLsrYFeSYJVwjbwPwqCEuAPRMY=
-github.com/d34dh0r53/keystone-operator/api v0.0.0-20241017150255-605c4a7db643/go.mod h1:saoorrsPo3DzDPGM6PJ8sQJBNuNRGCHjRHChRQmkoQ0=
+github.com/d34dh0r53/keystone-operator/api v0.0.0-20241018131746-aa1c7fb1adbe h1:X3xoz0XyZfu2Vr1Uc3D8WVTEyyfpY1JpxPff2lIuKko=
+github.com/d34dh0r53/keystone-operator/api v0.0.0-20241018131746-aa1c7fb1adbe/go.mod h1:saoorrsPo3DzDPGM6PJ8sQJBNuNRGCHjRHChRQmkoQ0=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc h1:U9qPSI2PIWSS1VwoXQT9A3Wy9MM3WgvqSxFWenqJduM=
